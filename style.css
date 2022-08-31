@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Bodoni&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+     background-color: #FCFFFC;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    font-family: 'Libre Bodoni', serif;
+    color: #040F0F;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    margin: 0;
+}
+
+.quiz_container{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 2px rgba(100, 100, 100, 0.3);
+    width: 600px;
+    overflow: hidden;
+}
+
+.quiz_header{
+    padding: 4rem;
+
+}
+
+h2{
+    padding: 1rem;
+    text-align: center;
+    margin: 0;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+
+ul li{
+    font-size: 1.2rem;
+    margin: 1rem 0;
+}
+
+ul li label{
+    cursor: pointer;
+}
+
+button{
+    background-color: #040F0F;
+    border: none;
+    color: white;
+    display: block;
+    width: 100%;
+    cursor: pointer;
+    padding: 1.3rem;
+    font-size: 1.1rem;
+    transition: all 2s linear;
+}
+
+button:hover{
+    background-color: #2D3939;
+}
+
+button:focus{
+    outline: none;
+}
